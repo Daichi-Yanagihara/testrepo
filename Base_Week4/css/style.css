@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: rgba(30, 10, 255, 0.75);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    height: 100%;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 25%;
+    margin-bottom: 20px;
+    border: 10px solid #12d6dc;
+}
+
+.skills {
+    background-color: rgba(3, 135, 250, 0.25);
+    padding: 25px;
+    border-radius: 30px;
+    margin: 25px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.skill-list {
+    margin: 20px;
+    padding: 30px;
+}
+
+.skill-list li {
+    background-color: rgba(0, 30, 255, 0.75);
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.portfolio {
+    background-color: rgba(3, 135, 250, 0.25);
+    padding: 25px;
+    border-radius: 30px;
+    margin-top: 55px;
+    margin-right: 25px;
+    margin-bottom: 55px;
+    margin-left: 25px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio h2 {
+    text-decoration: underline;
+}
+
+.portfolio img {
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 25%;
+    margin-bottom: 20px;
+    border: 10px solid #12d6dc;
+}
+
+.contact-form {
+    background-color: rgb(251, 253, 253);
+    text-align: center;
+    padding: 25px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form form dl dd {
+    margin: 0%;
+}
+
+.contact-form form dl dt {
+    margin: 10px;
+}
+
+input{
+    width: 100%;
+    height: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 175px;
+}
+
+h3 input {
+    background-color: rgba(30, 10, 255, 0.75);
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(30, 10, 255, 0.75);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
