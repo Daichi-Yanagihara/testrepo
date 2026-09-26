@@ -9,6 +9,7 @@ header {
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -46,6 +47,8 @@ main {
 .skill-list {
     margin: 20px;
     padding: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .skill-list li {
@@ -53,7 +56,7 @@ main {
     color: white;
     display: inline-block;
     padding: 15px;
-    margin: 10px;
+    margin: 30px;
     border-radius: 5px;
 }
 
@@ -72,25 +75,27 @@ main {
     text-decoration: underline;
 }
 
+.portfolio div {
+    display: flex;
+    justify-content: center;
+}
+
 .portfolio img {
-    width: 300px;
-    height: 400px;
-    margin: 30px;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
     border-radius: 25%;
     margin-bottom: 20px;
     border: 10px solid #12d6dc;
 }
 
 .contact-form {
-    background-color: rgb(251, 253, 253);
-    text-align: center;
-    padding: 25px;
-    border-radius: 30px;
-    margin-top: 30px;
-    margin-right: 500px;
-    margin-bottom: 50px;
-    margin-left: 500px;
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .contact-form form dl dd {
@@ -98,6 +103,7 @@ main {
 }
 
 .contact-form form dl dt {
+    width: 100%;
     margin: 10px;
 }
 
@@ -125,6 +131,6 @@ footer {
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
 }
