@@ -1,0 +1,32 @@
+.contact-form {
+    height: 450px;
+}
+
+.Input .Item {
+    width: 350px;
+    height: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+#value1 {
+    width: 85px;
+    height: 20px;
+    text-align: center;
+}
+
+#value2 {
+    width: 85px;
+    height: 20px;
+    text-align: center;
+}
+
+#choice {
+    width: 85px;
+    height: 35px;
+    text-align: center;
+}
+
+.output {
+    margin: 30px;
+}

@@ -108,19 +108,20 @@ main {
 }
 
 input{
-    width: 100%;
+    width: 100px;
     height: 20px;
+    text-align: center;
 }
 
 textarea {
-    width: 100%;
+    width: 300px;
     height: 175px;
 }
 
 h3 input {
     background-color: rgba(30, 10, 255, 0.75);
     color: white;
-    width: 100%;
+    width: 100px;
     height: 40px;
     border-radius: 10px;
     cursor: pointer;
