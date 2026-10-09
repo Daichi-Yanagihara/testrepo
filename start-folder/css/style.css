@@ -104,11 +104,13 @@ main {
 
 .contact-form form dl dt {
     width: 100%;
-    margin: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 input{
-    width: 100px;
+    width: 200px;
     height: 20px;
     text-align: center;
 }
@@ -134,4 +136,19 @@ footer {
     padding-bottom: 20px;
     margin-top: 50px;
     text-align: center;
+}
+
+#username {
+    width: 400px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#searchBtn {
+    width: 400px;
+    padding: 10px;
+    background-color: rgba(30, 10, 255, 0.75);
+    color: white;
+
 }
