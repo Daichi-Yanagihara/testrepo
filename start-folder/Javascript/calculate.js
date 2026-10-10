@@ -24,17 +24,17 @@ function calculate() {
     let calcresult;
     let symbol;
 
-    if (operator == "addition") {
+    if (operator === "addition") {
         calcresult = value1 + value2;
         symbol = "+";
-    } else if (operator == "subtraction") {
+    } else if (operator === "subtraction") {
         calcresult = value1 - value2;
         symbol = "-";
-    } else if (operator == "multiplication") {
+    } else if (operator === "multiplication") {
         calcresult = value1 * value2;
         symbol = "×";
-    } else if (operator == "division") {
-        if (value2 == 0) {
+    } else if (operator === "division") {
+        if (value2 === 0) {
             expression.textContent = "計算式：";
             result.textContent = "0で割ることはできません。";
             return;
